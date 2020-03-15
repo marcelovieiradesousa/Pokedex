@@ -55,7 +55,7 @@ USE DATABASE pokedex;
 
 ```sql
 DESCRIBE pokemon;
-``
+```
 
 3. Selecione todos os pokémons cadastrados no banco de dados.
 
