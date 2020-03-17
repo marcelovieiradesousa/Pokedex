@@ -125,7 +125,7 @@ WHERE
 SELECT 
     numero, nome, defesa
 FROM
-    pokemon
+    numero, nome, defesa
 ORDER BY total DESC;
 ```
 
