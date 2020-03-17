@@ -182,7 +182,7 @@ FROM
     pokemon
 WHERE
     tipo1 IS NOT NULL AND tipo2 IS NOT NULL
-        AND taxa_captura > 100;
+        AND taxa_captura > 100 ORDER BY taxa_captura;
 ```
 
 16. Quais são os tipos primários dos pokémons?
