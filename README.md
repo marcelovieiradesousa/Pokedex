@@ -473,9 +473,8 @@ SELECT
 FROM
     pokemon
 WHERE
-    tipo1 = 'Water'
-        OR tipo1 = 'Gelo' AND tipo2 = 'Water'
-        OR tipo2 = 'Gelo'
+    tipo1 = 'Gelo' AND tipo2 = 'Water'
+        OR tipo2 = 'Gelo' AND tipo1 = 'Water'
 ORDER BY total DESC;
 ```
 
