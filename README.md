@@ -427,7 +427,7 @@ FROM
     pokemon
 WHERE
     tipo1 = 'Fire'
-        OR tipo2 = 'Fire' AND NOT cor = 'Vermelho'
+        OR tipo2 = 'Fire' AND NOT cor = 'Red'
 ORDER BY nome ASC;
 ```
 
