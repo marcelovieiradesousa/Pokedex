@@ -392,7 +392,7 @@ SELECT
 FROM
     pokemon
 WHERE
-    NOT cor = 'Azul'
+    NOT cor = 'Blue'
 ORDER BY nome ASC;
 ```
 
