@@ -376,7 +376,7 @@ WHERE
 
 ```sql
 SELECT 
-    numero, nome, tipo1, tipo2, lendario
+    numero, nome, tipo1, tipo2,
 FROM
     pokemon
 WHERE
